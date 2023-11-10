@@ -1,15 +1,9 @@
-import Hello from "./components/Hello.jsx";
+import Fruits from "./components/Fruits.jsx";
 
 function App() {
-    const person = {
-        name: "Barney",
-        message: "That's gross, ",
-        emoji: "x.x",
-        seatNumbers: [1, 2, 4, 5, 6]
-    }
   return (
     <div className="App">
-        <Hello person={person}/>
+        <Fruits />
     </div>
   )
 }
