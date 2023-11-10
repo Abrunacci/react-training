@@ -1,11 +1,9 @@
-const name= "Anakin";
-
-function displayMessage() {
-    return "Hello " + name;
-}
-
-function Hello(){
-    return <h1>{displayMessage()}!</h1>;
+function Hello({person}){
+    return (
+        <div>
+            <h1>{person.message}{person.name}. {person.emoji} {person.seatNumbers}</h1>
+        </div>
+    );
 }
 
 export default Hello;
