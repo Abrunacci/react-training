@@ -1,10 +1,11 @@
 import Fruits from "./components/Fruits.jsx";
 import ConditionalComponent from "./components/ConditionalComponent.jsx";
+import Message from "./components/message.jsx";
 
 function App() {
   return (
     <div className="App">
-        <Fruits />
+        <Message />
     </div>
   )
 }
