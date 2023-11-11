@@ -1,7 +1,11 @@
+import Todo from "./components/Todo.jsx";
+
 function App() {
 
   return (
-      <div>To-Do APP</div>
+      <div>
+        <Todo />
+      </div>
   )
 }
 
