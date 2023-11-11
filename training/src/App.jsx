@@ -13,10 +13,3 @@ function App() {
 
 export default App
 
-
-/* coderbyte technical assessment:
-    - Multiple choice
-    - Codigo
-   Entrevista tecnica
-   1 o 2 entrevistas con cliente
- */
