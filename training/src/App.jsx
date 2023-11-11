@@ -1,4 +1,5 @@
 import Fruits from "./components/Fruits.jsx";
+import ConditionalComponent from "./components/ConditionalComponent.jsx";
 
 function App() {
   return (
